@@ -12,12 +12,11 @@
 
 body {
   display:flex;
-  align-items: normal;
-  position:relative;
-  justify-content: center;
-  min-height: 100vh;
+  align-items:end;
+  justify-content:center;
+  min-height: 85vh;
   background-color: var(--dark-color);
-  overflow: hidden;
+  overflow:auto;
   perspective: 10px;
 }
 
