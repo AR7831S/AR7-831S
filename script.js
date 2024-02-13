@@ -1,0 +1,12 @@
+// script.js
+$(document).ready(function(){
+    $(".container").mouseenter(function(){
+        $(".card").stop().animate({
+            top:"-100px"
+        },"slow");
+    }).mouseleave(function(){
+        $(".card").stop().animate({
+            top:0
+        }, "slow");
+    });
+});
